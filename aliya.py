@@ -980,7 +980,7 @@ def meyexudi():
   uuid = "md"+str(os.getuid())+"NADEEM"+str(os.getuid())+"FREE.TOOL"
   id = ''.join(uuid)
   try:
-    httpCaht = requests.get(f"https://github.com/BROKEN-NADEEM/APPROVAL.git.txt").text
+    httpCaht = requests.get(f"https://github.com/BROKEN-NADEEM/ALIYA-ALI.git.txt").text
     if id in httpCaht:
       msg = str(os.geteuid())
       print()
