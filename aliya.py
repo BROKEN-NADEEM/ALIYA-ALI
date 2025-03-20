@@ -608,7 +608,7 @@ def line():print(f'\r\n\33[38;5;37m━━━━━━━━━━━━━━━
 logo = f"""
 
 \033[1;33m  _          _______    ______     _______    _______    _______      _______    _         _________
-\033[1;33m( (    /|  (  ___  )  (  __  \   (  ____ \  (  ____ \  (       )    (  ___  )  ( \        \__   __/
+\033[1;33m ( (    /|  (  ___  )  (  __  \   (  ____ \  (  ____ \  (       )    (  ___  )  ( \        \__   __/
 \033[1;32m |  \  ( |  | (   ) |  | (  \  )  | (    \/  | (    \/  | () () |    | (   ) |  | (           ) (   
 \033[1;32m |   \ | |  | (___) |  | |   ) |  | (__      | (__      | || || |    | (___) |  | |           | |   
 \033[1;32m | (\ \) |  |  ___  |  | |   | |  |  __)     |  __)     | |(_)| |    |  ___  |  | |           | |   
@@ -980,7 +980,7 @@ def meyexudi():
   uuid = "md"+str(os.getuid())+"NADEEM"+str(os.getuid())+"FREE.TOOL"
   id = ''.join(uuid)
   try:
-    httpCaht = requests.get(f"https://github.com/BROKEN-NADEEM/APPROVAL.txt").text
+    httpCaht = requests.get(f"https://github.com/BROKEN-NADEEM/APPROVAL.git.txt").text
     if id in httpCaht:
       msg = str(os.geteuid())
       print()
@@ -994,7 +994,7 @@ def meyexudi():
       print(" \x1b[0m║══[KEY]  : "+id)
       uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME ::> \033[1;91m: \33[1;32m')
       input(' \033[1;36m 🫂❤️ [•] IF U WANT APPROVAL FOR FREE THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+917209101285?text='+tks),approval()       
+      tks = ('Hello%20NADEEM%20!%20Please%20Approve%20My%20key%20The%20please%20Is%20:%20'+id);os.system('am start https://wa.me/+917209101285?text='+tks),approval()       
   except:
     sys.exit()
 print(logo)
